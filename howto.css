@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    background-color: #20222e !important;
+  }
+  .header{
+      color: white;
+      font-family: 'Yanone Kaffeesatz', sans-serif !important;
+
+  }
+  .nav-c {
+    color: #9a9696 !important;
+    font-family: 'Bebas Neue', cursive !important;
+
+  }
+  .nav-1 {
+    margin-bottom: 10px;
+    background-color: #181A28 !important;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+  }
+  .nav-1{
+   
+  }
+  .nav-c {
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    color: rgb(243, 234, 234) !important;
+    font-size: 23px;
+    cursor: pointer;
+  }
+  .nav-c:hover {
+    color: #2e6a12 !important;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  .header{
+      text-align: center;
+      font-size: 35px;
+  }
+  .pra{
+color: whitesmoke;
+text-align: left;
+font-size: 15px;
+line-height: 30px;
+  }
+  .img{
+      display: flex; 
+      margin-top: 20px;
+      justify-content: center;
+  }
+  .img img{
+      width: 450px;
+  }
+  .fot{
+    background-color: #222222;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .phone h6{
+    color: #BBBBBB;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .phone{
+    justify-self: center;
+    width: 100%;
+  }
+  .img-wrap{
+    display: flex;
+    justify-content: center;
+  }
+  .img-wrap img{
+    cursor: pointer;
+  
+  }
+  .fot-row{
+    display: flex;
+    justify-content: center;
+  }
+  .bar{
+    border: 0.5px solid rgb(146, 142, 142);
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  .delv h6{
+    color: #BBBBBB;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+  .social img{
+    padding: 10px;
+    cursor: pointer;
+  }

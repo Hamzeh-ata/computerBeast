@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    background-color: #181A28 !important;
+  }
+  .nav-c {
+    color: #9a9696 !important;
+  }
+  .nav-1 {
+    margin-bottom: 10px;
+    background-color: #20222E !important;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+  }
+  .nav-1{
+   
+  }
+  .nav-c {
+    font-family: 'Bebas Neue', cursive; 
+    padding: 10px;
+    color: rgb(243, 234, 234) !important;
+    font-size: 23px;
+    cursor: pointer;
+  }
+  .nav-c:hover {
+    color: #2e6a12 !important;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  .search{
+width: 70%; 
+padding: 5px;
+justify-self: center;
+ }
+  
+ .input{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+ }
+ .pc-row {
+    background-color: #20222e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2px;
+    margin-top: 20px;
+    width: 80%;
+  }
+  .pc-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .pc-img img {
+    width: 80%;
+    height: 200px;
+    object-fit: contain;
+  }
+  .pc-img img:hover {
+    transform: translateY(0) scale(1.2);
+  }
+  .pc-title-price {
+    justify-self: center;
+    align-self: center;
+    font-family: "Teko", sans-serif;
+  }
+  .pc-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+  }
+  .pc-img img:hover {
+    transform: translateY(0) scale(1.2);
+  }
+  .pc-title-price {
+    justify-self: center;
+    align-self: center;
+    font-family: "Teko", sans-serif;
+  }
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    height: 100%;
+  }
+  .pc-title-price h4 {
+    color: #7D7D7D;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .pc-title-price h4:hover {
+    color: #3c9613;
+  }
+  .pc-title-price h6 {
+    color: #fcfcfc;
+    font-size: 16px;
+    text-align: center;
+  }
+  .pc-title-price h5 {
+    color: #fcfcfc;
+    font-size: 20px;
+    text-align: center;
+  }
+  .pha p {
+    color: rgb(207, 202, 202);
+  }
+  .pha {
+    align-self: center;
+  }
+  .col-p {
+    display: flex;
+  }
+  .col-title {
+    display: flex;
+  }
+.pc-title-price{
+    width: 100%;
+    word-break: break-word;
+}
+.col-add a{
+    background-color: #181A28 !important;
+    border-radius: 2px;
+    color: #c4bebe !important;
+    border: 1px solid #565855 ;
+    padding: 10px;
+    cursor: pointer;
+text-align: center;
+
+}
+.col-add a:hover{
+    color: #2e6a12 !important;
+    border: 1px solid #2e6a12 ;
+}
+.col-add{
+    display: flex;
+    align-content: center !important;
+}
+.a{
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+.search:focus {
+    outline: none !important;
+    border:1px solid rgb(7, 145, 59);
+    box-shadow: 0 0 10px #012707;
+  }
+  #counter{
+      color: whitesmoke;
+      font-size: 14px;
+     
+    margin:5px;
+  }
+  .fot{
+    background-color: #222222;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .phone h6{
+    color: #BBBBBB;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .phone{
+    justify-self: center;
+    width: 100%;
+  }
+  .img-wrap{
+    display: flex;
+    justify-content: center;
+  }
+  .img-wrap img{
+    cursor: pointer;
+  
+  }
+  .fot-row{
+    display: flex;
+    justify-content: center;
+  }
+  .bar{
+    border: 0.5px solid rgb(146, 142, 142);
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  .delv h6{
+    color: #BBBBBB;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+  .social img{
+    padding: 10px;
+    cursor: pointer;
+  }

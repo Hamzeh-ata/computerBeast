@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+  background-color: #20222e !important;
+}
+html,
+body {
+  height: 100%;
+}
+.comp-img img {
+  padding: 10px;
+  max-height: 100%;
+  max-width: 100%;
+}
+.comp-img {
+
+}
+#comp_img{
+  transition: 0.5s;
+  object-fit: contain;
+
+}
+.section1 {
+margin-top: 50px;
+  word-wrap: break-word;
+}
+.container-1 {
+  align-content: center;
+  align-self: center;
+}
+.comp-header {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.comp-header:hover{
+  color: #2e6a12 ;
+
+}
+.Main-text p {
+  font-family: Russo One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #9a9696;
+}
+.nav-c {
+  color: #9a9696 !important;
+
+}
+.nav-1 {
+  margin-bottom: 10px;
+  background-color: #181A28 !important;
+  padding: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+.nav-1{
+ 
+}
+.nav-c {
+  font-family: 'Bebas Neue', cursive;
+  padding: 10px;
+  color: rgb(243, 234, 234) !important;
+  font-size: 23px;
+  cursor: pointer;
+}
+.nav-c:hover {
+  color: #2e6a12 !important;
+}
+aside {
+  float: left;
+  color: #2e6a12 !important;
+  min-height: 100vh;
+  height: 100%;
+}
+aside h1 {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Yanone Kaffeesatz', sans-serif !important;
+}
+.aside-content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  transform: rotate(270deg);
+}
+
+.aside-wrap {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 70%;
+}
+.personal-contact {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.personal-contact img {
+    width: 40px;
+    height: 30px;
+}
+.personal-contact img {
+  padding-right: 10px;
+}
+.other-comp{
+    background-color: #1f2029;
+    border-radius: 10px;
+    border:1px solid #9C9C9C;
+    padding: 5px;
+    cursor: pointer;
+}
+.other-comp:hover{
+    border-color: #2e6a12;
+}
+.other-comp img{
+    width: 150px;
+    height: 150px;
+  
+}
+.section2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.comp-sugg{
+    margin: 10px;
+}
+.Main-text h6{
+  color: #d2d5db;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif !important;
+
+border-bottom: 1px solid  #696C71;
+}
+.prev,.next{
+  background-color: #2A2B39;
+  padding: 1px;
+  color: rgb(253, 250, 250) !important;
+  margin: 15px;
+  font-size: 30px;
+  width: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+.prev:hover,.next:hover{
+  color: #3c9613 !important;
+}
+.prev-next{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+a{
+  text-decoration: none !important;
+}
+.fot{
+  background-color: #222222;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+.phone h6{
+  color: #BBBBBB;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 5px;
+}
+.phone{
+  justify-self: center;
+  width: 100%;
+}
+.img-wrap{
+  display: flex;
+  justify-content: center;
+}
+.img-wrap img{
+  cursor: pointer;
+
+}
+.fot-row{
+  display: flex;
+  justify-content: center;
+}
+.bar{
+  border: 0.5px solid rgb(146, 142, 142);
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.delv h6{
+  color: #BBBBBB;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.social img{
+  padding: 10px;
+  cursor: pointer;
+}

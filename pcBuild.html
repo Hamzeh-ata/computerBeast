@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./pcBuild.css" />
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Computer beast</title>
+  </head>
+  <body>
+    <nav class="nav-1">
+        <div class="container">
+          <ul>
+            <li>
+              <a href="./index.html" class="nav-c">Home</a>
+            </li>
+            <li>
+              <a class="nav-c" href="./components.html">Components</a>
+            </li>
+            <li>
+              <a class="nav-c" href="./pcBuild.html">Bulid pc</a>
+            </li>
+            <li>
+              <a class="nav-c" href="./howto.html">Articles</a>
+            </li>
+            <li>
+              <a class="nav-c" href="./pc-builds.html">Computer builds</a>
+            </li>
+            <li>
+              <span style="float:right;" id="counter">0</span>
+              <img style="float:right;" src="./imgs/shop.png">
+
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+          <div class="row">
+              
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="row pc-row">
+                <div class="col-2">
+                  <div class="pc-img">
+                    <img src="./imgs/motherboard.png" />
+                  </div>
+                </div>
+                <div class="col-2 col-title">
+                  <div class="pc-title-price">
+                    <h4 class="name">Motherboard</h4>
+                    <h6>MSI B450 </h6>
+                  </div>
+                </div>
+                <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Memory Max </h4>
+                      <h5>64 GB</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>SLI/CrossFire</h4>
+                      <h5>$CrossFire </h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Price</h4>
+                      <h5>$600</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-add">
+                      <div class="a">
+                        <a onclick="myFunction()" class="add" id="add" >Add to Build</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="row pc-row">
+                <div class="col-2">
+                  <div class="pc-img">
+                    <img src="./imgs/ram.png" />
+                  </div>
+                </div>
+                <div class="col-2 col-title">
+                  <div class="pc-title-price">
+                    <h4>RAM Memory</h4>
+                    <h6>AMD Ryzen 5  </h6>
+                  </div>
+                </div>
+                <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Modules</h4>
+                      <h5>2 x 8GB</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Voltage</h4>
+                      <h5>1.35 V</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Price</h4>
+                      <h5>$520</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-add">
+                      <div class="a">
+                        <a onclick="myFunction()" class="add" id="add">Add to Build</a>
+                      </div>
+                   
+                  </div>
+              </div>
+              <div class="row pc-row">
+                <div class="col-2">
+                  <div class="pc-img">
+                    <img src="./imgs/cpu.png" />
+                  </div>
+                </div>
+                <div class="col-2 col-title">
+                  <div class="pc-title-price">
+                    <h4>CPU</h4>
+                    <h6>AMD Ryzen 5 3600 </h6>
+                  </div>
+                </div>
+                <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Core Clock</h4>
+                      <h5>3.6 GHz</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Core Count</h4>
+                      <h5>6</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Price</h4>
+                      <h5>$610</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-add">
+                      <div class="a">
+                        <a onclick="myFunction()" class="add">Add to Build</a>
+                      </div>
+                   
+                  </div>
+              </div>
+              <div class="row pc-row">
+                <div class="col-2">
+                  <div class="pc-img">
+                    <img src="./imgs/powersp.png" />
+                  </div>
+                </div>
+                <div class="col-2 col-title">
+                  <div class="pc-title-price">
+                    <h4>Power Supply</h4>
+                    <h6>EVGA BQ 600 W 80+ </h6>
+                  </div>
+                </div>
+                <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>PCIe 6+2-Pin Connectors</h4>
+                      <h5>2</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>SATA Connectors </h4>
+                      <h5>6</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Price</h4>
+                      <h5>$210</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-add">
+                      <div class="a">
+                        <a onclick="myFunction()" class="add">Add to Build</a>
+                      </div>
+                   
+                  </div>
+              </div>
+              <div class="row pc-row">
+                <div class="col-2">
+                  <div class="pc-img">
+                    <img src="./imgs/gtx.png" />
+                  </div>
+                </div>
+                <div class="col-2 col-title">
+                  <div class="pc-title-price">
+                    <h4>Graphics Card</h4>
+                    <h6>NVIDIA GeForce RTX 3070 8 GB </h6>
+                  </div>
+                </div>
+                <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Core Clock</h4>
+                      <h5>1500 MHz</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Boost Clock</h4>
+                      <h5>1.35 V</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-title">
+                    <div class="pc-title-price">
+                      <h4>Price</h4>
+                      <h5>$250</h5>
+                    </div>
+                  </div>
+                  <div class="col-2 col-add">
+                      <div class="a">
+                        <a onclick="myFunction()" class="add">Add to Build</a>
+                      </div>
+                   
+                  </div>
+              </div>
+          
+          </div>
+      </div>
+      <footer class="fot">
+        <div class="container">
+          <div class="row fot-row  ">
+            <div class="col-sm ">
+              <div class="phone">
+                <div class="img-wrap ">
+                  <img  src="./imgs/phone.png">
+                </div>
+                <h6>0798354093</h6>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="phone">
+                <div class="img-wrap ">
+                  <img  src="./imgs/email.png">
+                </div>
+                <h6>Hamzehiyi@outlook.com</h6>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="phone">
+                <div class="img-wrap ">
+                  <img  src="./imgs/location.png">
+                </div>
+                <h6>AMMAN - KHALDA</h6>
+              </div>
+            </div>
+           
+          </div>
+          <span class="bar"></span>
+          <div class="row fot-row">
+            <div class="delv">
+              <h6>This Webstie Developed & Designed By Hamzeh Atallah</h6>
+            </div>
+          </div>
+          <div class="row fot-row">
+            <div class="social">
+              <img src="./imgs/LINK.png">
+              <img src="./imgs/FACEBOK.png">
+              <img src="./imgs/INSTAGRAM.png">
+  
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+<script src="./buildpc.js"></script>
+
+</html>

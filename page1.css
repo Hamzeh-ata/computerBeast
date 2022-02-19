@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.seciton1 {
+  background-color: #20222e;
+  padding: 150px;
+  border-bottom-left-radius: 120px;
+  width: 100%;
+  padding: 125px;
+}
+body {
+  background-color: #181a28 !important;
+}
+.main-img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+.main-text {
+  font-size: 47px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.row-1 {
+  display: flex;
+  justify-content: center;
+}
+.pc-components,
+.bulid-pc {
+  background-color: #2e6a12;
+  padding: 8px 7px;
+  margin: 10px;
+  text-align: center;
+  color: rgb(213, 219, 223) !important;
+  font-size: 20px;
+  font-family: "Red Hat Display", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #cacbcf;
+  text-shadow: 1px 2px black;
+  width: 158px;
+  text-align: center;
+  box-shadow: 10px 8px 5px 0px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 10px 8px 5px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 10px 8px 5px 0px rgba(0, 0, 0, 0.71);
+  text-decoration: none !important;
+}
+.pc-components:hover,
+.bulid-pc:hover {
+  cursor: pointer;
+}
+.right-col {
+  padding: 10px;
+  min-height: 130px;
+  align-self: center;
+}
+.main-text p span {
+  color: #3c9613;
+}
+.desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  color: rgb(206, 204, 200);
+}
+h1 span {
+  color: #3c9613;
+}
+.section2-header {
+  font-size: 35px;
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive; 
+   margin-bottom: 20px;
+}
+.section2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.col-sm {
+  padding-top: 15px;
+}
+
+.section3 {
+  background-image: url(./imgs/corsair-carbide-pc-case-2080-build\ 1.png);
+  content: "";
+  width: 100%;
+  background-size: cover;
+  padding: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.build-computer {
+  font-size: 44px;
+  color: aliceblue;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+.build-computer span {
+  color: #3c9613;
+}
+.section3-button {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.bulid-computer {
+  background-color: #2e6a12;
+  font-size: 25px !important;
+  border-radius: 5px;
+  border: 1px solid #cacbcf;
+  text-shadow: 1px 2px black;
+  color: rgb(213, 219, 223) !important;
+  font-size: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif !important;
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.bulid-computer:hover {
+  cursor: pointer;
+  background-color: rgb(19, 110, 24);
+  color: antiquewhite;
+}
+ul,
+.ul-1 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  padding: 10;
+}
+.COMPONENTS,
+.BULIDER,
+.guide,
+.computer {
+  color: aliceblue !important;
+  padding: 8px;
+  text-align: center;
+}
+
+
+
+.header {
+  font-size: 20px;
+  color: aliceblue !important;
+  padding: 15px;
+}
+.header span {
+  color: #3c9613;
+}
+.ul-1 {
+  margin-right: 16px;
+}
+.container-1 {
+  padding: 10px;
+}
+.COMPONENTS::before{
+  background-image: url(./imgs/components.png);
+  content: url("");
+  background-size: 25px 25px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  padding-right: 32px;
+}
+.computer::before{
+  background-image: url(./imgs/computer.png);
+  content: url("");
+  background-size: 25px 25px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  padding-right: 32px;
+}
+.BULIDER::before {
+  background-image: url(./imgs/build_3.png);
+  content: url("");
+  background-size: 25px 25px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  padding-right: 32px;
+}
+.guide::before {
+  background-image: url(./imgs/guidebook.png);
+  content: url("");
+  background-size: 25px 25px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  padding-right: 32px;
+}
+.BULIDER:hover,
+.COMPONENTS:hover,
+.guide:hover,
+.computer:hover {
+  color: #3c9613 !important;
+  cursor: pointer;
+}
+a {
+  text-decoration: none !important;
+}
+.comp{
+  background-color: #20222e;
+  margin: 10px;
+  border: 1px solid #454F40;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: 0.9s;
+
+}
+.comp:hover{
+  border-color:#3C9613 ;
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+.comp-img{
+  display: flex;
+  justify-content: center;
+}
+.comp-img img:hover {
+  transform: translateY(0) scale(1.2);
+}
+.comp-name{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  height: 30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif !important;
+text-transform:uppercase;
+}
+.comp:hover .deatils{
+  opacity: 1;
+}
+.comp-img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.comp-img img{
+  max-width: 100%;
+  object-fit: contain;
+}
+.deatils{
+  color: white !important;
+  width: 100%;
+  display: block;
+  font-family: 'Bebas Neue', cursive;
+
+  background: #3C9613;
+border-radius: 0px 0px 13px 13px;
+padding: 10px;
+text-align: center;
+opacity: 0;
+margin-top: 5px;
+transition: 0.9s;
+color: aliceblue !important;
+}
+.section4 {
+  background-image: url(./imgs/buildpc.png);
+  content: "";
+  width: 100%;
+  background-size: cover;
+  padding: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.articles{
+  background-color: #1A1B24;
+  padding: 60px;
+  width: 100%;
+display: block;
+}
+.hwt{
+  background-color: #1C1D25 !important;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #4F4F4F;
+  margin-top: auto;
+  display: block;
+  box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.75);
+  cursor: pointer;
+  transition: 0.9s;
+
+}
+.hwt:hover{
+    border: 1px solid #3C9613;
+
+}
+.hwt-img{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+}
+.hwt-img img{
+width: 80%;
+height: 150px;
+}
+.hwt-title h4{
+  padding-top: 10px;
+  font-size: 22px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: whitesmoke;
+}
+.hwt-title{
+  display: flex;
+  justify-content: center;
+}
+.main-header{
+  margin-bottom: 15px;
+}
+.main-header h1{
+  color: whitesmoke;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+}
+.main-header span{
+  color: #3C9613;;
+}
+.auo{
+  float: left !important; 
+  
+}
+.ard{
+  float: right !important;
+}
+.hwt-name{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;  
+  flex-grow: 1;        /* added */
+ 
+}
+.hwt-name p{
+  text-align: center;
+  color: #ada6a6;
+  font-size: 15px;
+}
+.read-more{
+  color: white !important;
+  width: 100%;
+  display: block;
+  background: #3C9613;
+padding: 10px;
+text-align: center;
+cursor: pointer;
+margin-top: 5px;
+transition: 0.9s;
+font-family: 'Bebas Neue', cursive;
+color: aliceblue !important;
+box-shadow: 5px 7px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 7px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.fot{
+  background-color: #222222;
+  width: 100%;
+  padding: 10px;
+}
+.phone h6{
+  color: #BBBBBB;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 5px;
+}
+.phone{
+  justify-self: center;
+  width: 100%;
+}
+.img-wrap{
+  display: flex;
+  justify-content: center;
+}
+.img-wrap img{
+  cursor: pointer;
+
+}
+.fot-row{
+  display: flex;
+  justify-content: center;
+}
+.bar{
+  border: 0.5px solid rgb(146, 142, 142);
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.delv h6{
+  color: #BBBBBB;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.social img{
+  padding: 10px;
+  cursor: pointer;
+}
